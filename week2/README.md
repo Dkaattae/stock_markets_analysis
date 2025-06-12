@@ -15,7 +15,14 @@ comment: beta could be a factor, as returns should compared with index.
 insider lockin period is a factor here. also two month could release more information on what the company is doing.   
 
 ## question 4, simple RSI based trading strategy   
-comment: package ta could be a problem. 
+comment: package ta could be a problem.    
+i am using pandas-ta instead.   
+in google colab, 
+first `!pip install numpy=1.24.4`,   
+then `!pip install pandas-ta`,   
+then `import pandas-ta`   
+growth future 30d average is 86k   
+growth future 5d average is 15k   
 
 ## question 5, predicting a positive return IPO   
-as above comments, company ticker changing couldbe huge.   
+see above comments, company ticker changing could be huge.   
